@@ -113,4 +113,3 @@ if __name__ == "__main__":
         if not imports_ok:
             print("   - Errores de importación detectados")
     
-    return syntax_ok and imports_ok 
