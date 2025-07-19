@@ -1,0 +1,29 @@
+{
+    "Flip From Top": {
+        "anim_preset": "FLIP",
+        "duration": 30,
+        "overlap": 3,
+        "rot_x_start": -90,
+        "rot_y_start": 0,
+        "rot_z": 0,
+        "scale_start": 0.8
+    },
+    "Flip From Bottom": {
+        "anim_preset": "FLIP",
+        "duration": 30,
+        "overlap": 3,
+        "rot_x_start": 90,
+        "rot_y_start": 0,
+        "rot_z": 0,
+        "scale_start": 0.8
+    },
+    "Tumble In Y": {
+        "anim_preset": "FLIP",
+        "duration": 40,
+        "overlap": 5,
+        "rot_x_start": 0,
+        "rot_y_start": 180,
+        "rot_z": 0,
+        "scale_start": 0.0
+    }
+}

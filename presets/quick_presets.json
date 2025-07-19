@@ -1,0 +1,122 @@
+{
+  "Escala In Escala Out": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1, 1, 1]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Rotacion 360": {
+    "start": {"rotation": [0, 0, 360]},
+    "middle": {"rotation": [0, 0, 0]},
+    "end": {"rotation": [0, 0, 0]}
+  },
+  "Typewriter": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1, 1, 1]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Bounce": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1.2, 1.2, 1.2], "location": [0, 0.5, 0]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Wave": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1, 1, 1], "location": [0, 0, 0.3]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Fade In": {
+    "start": {"scale": [0.8, 0.8, 0.8]},
+    "middle": {"scale": [1, 1, 1]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Shake": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1, 1, 1], "rotation": [0, 0, 5]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Slide In": {
+    "start": {"location": [-2, 0, 0]},
+    "middle": {"location": [0, 0, 0]},
+    "end": {"location": [0, 0, 0]}
+  },
+  "Flip From Top": {
+    "start": {"rotation": [90, 0, 0], "scale": [0.8, 0.8, 0.8]},
+    "middle": {"rotation": [0, 0, 0], "scale": [1, 1, 1]},
+    "end": {"rotation": [0, 0, 0], "scale": [1, 1, 1]}
+  },
+  "Flip From Bottom": {
+    "start": {"rotation": [-90, 0, 0], "scale": [0.8, 0.8, 0.8]},
+    "middle": {"rotation": [0, 0, 0], "scale": [1, 1, 1]},
+    "end": {"rotation": [0, 0, 0], "scale": [1, 1, 1]}
+  },
+  "Tumble In Y": {
+    "start": {"rotation": [0, 180, 0], "scale": [0, 0, 0]},
+    "middle": {"rotation": [0, 0, 0], "scale": [1, 1, 1]},
+    "end": {"rotation": [0, 0, 0], "scale": [1, 1, 1]}
+  },
+  "Zoom In": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1.5, 1.5, 1.5]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Zoom Out": {
+    "start": {"scale": [1, 1, 1]},
+    "middle": {"scale": [1.5, 1.5, 1.5]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Rotate In": {
+    "start": {"rotation": [0, 0, -180]},
+    "middle": {"rotation": [0, 0, 0]},
+    "end": {"rotation": [0, 0, 0]}
+  },
+  "Rotate Out": {
+    "start": {"rotation": [0, 0, 0]},
+    "middle": {"rotation": [0, 0, 0]},
+    "end": {"rotation": [0, 0, 180]}
+  },
+  "Drop In": {
+    "start": {"location": [0, 3, 0]},
+    "middle": {"location": [0, 0, 0]},
+    "end": {"location": [0, 0, 0]}
+  },
+  "Float Up": {
+    "start": {"location": [0, 0, 0]},
+    "middle": {"location": [0, 0, 0]},
+    "end": {"location": [0, 2, 0]}
+  },
+  "Spin 360": {
+    "start": {"rotation": [0, 0, 0]},
+    "middle": {"rotation": [0, 0, 180]},
+    "end": {"rotation": [0, 0, 360]}
+  },
+  "Scale Bounce": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1.3, 1.3, 1.3]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Slide Up": {
+    "start": {"location": [0, -2, 0]},
+    "middle": {"location": [0, 0, 0]},
+    "end": {"location": [0, 0, 0]}
+  },
+  "Slide Down": {
+    "start": {"location": [0, 0, 0]},
+    "middle": {"location": [0, 0, 0]},
+    "end": {"location": [0, -2, 0]}
+  },
+  "Fade Out": {
+    "start": {"scale": [1, 1, 1]},
+    "middle": {"scale": [1, 1, 1]},
+    "end": {"scale": [0, 0, 0]}
+  },
+  "Pop In": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1.2, 1.2, 1.2]},
+    "end": {"scale": [1, 1, 1]}
+  },
+  "Pop Out": {
+    "start": {"scale": [1, 1, 1]},
+    "middle": {"scale": [1.2, 1.2, 1.2]},
+    "end": {"scale": [1, 1, 1]}
+  }
+}

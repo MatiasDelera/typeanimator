@@ -1,0 +1,12 @@
+{
+  "Escala In Escala Out": {
+    "start": {"scale": [0, 0, 0]},
+    "middle": {"scale": [1, 1, 1]},
+    "end": {"scale": [0, 0, 0]}
+  },
+  "Rotacion 360": {
+    "start": {"rotation": [0, 0, 360]},
+    "middle": {"rotation": [0, 0, 0]},
+    "end": {"rotation": [0, 0, 0]}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Escala 0": {
+    "scale": [0.0, 0.0, 0.0],
+    "rotation": [0.0, 0.0, 0.0],
+    "location": [0.0, 0.0, 0.0],
+    "description": "Escala inicial en 0"
+  },
+  "Escala 0.5": {
+    "scale": [0.5, 0.5, 0.5],
+    "rotation": [0.0, 0.0, 0.0],
+    "location": [0.0, 0.0, 0.0],
+    "description": "Escala inicial en 0.5"
+  },
+  "Rotación 90": {
+    "scale": [1.0, 1.0, 1.0],
+    "rotation": [0.0, 0.0, 90.0],
+    "location": [0.0, 0.0, 0.0],
+    "description": "Rotación inicial de 90 grados"
+  },
+  "Posición Arriba": {
+    "scale": [1.0, 1.0, 1.0],
+    "rotation": [0.0, 0.0, 0.0],
+    "location": [0.0, 2.0, 0.0],
+    "description": "Posición inicial arriba"
+  },
+  "Combinado": {
+    "scale": [0.0, 0.0, 0.0],
+    "rotation": [0.0, 0.0, 180.0],
+    "location": [0.0, -1.0, 0.0],
+    "description": "Combinación de escala, rotación y posición"
+  }
+} 

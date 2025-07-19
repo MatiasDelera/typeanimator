@@ -1,0 +1,59 @@
+{
+    "Typewriter": {
+        "anim_preset": "TYPE",
+        "duration": 20,
+        "overlap": 2,
+        "scale_start": 0.0,
+        "rot_z": 0.0
+    },
+    "Scale In": {
+        "anim_preset": "SCALE",
+        "duration": 30,
+        "overlap": 5,
+        "scale_start": 0.0,
+        "rot_z": 0.0
+    },
+    "Bounce": {
+        "anim_preset": "BOUNCE",
+        "duration": 25,
+        "overlap": 3,
+        "amplitude": 1.5,
+        "rot_z": 0.0
+    },
+    "Wave": {
+        "anim_preset": "WAVE",
+        "duration": 40,
+        "overlap": 8,
+        "amplitude": 2.0,
+        "rot_z": 0.0
+    },
+    "Fade In": {
+        "anim_preset": "FADE",
+        "duration": 15,
+        "overlap": 2,
+        "scale_start": 0.8,
+        "rot_z": 0.0
+    },
+    "Shake": {
+        "anim_preset": "SHAKE",
+        "duration": 35,
+        "overlap": 10,
+        "amplitude": 0.5,
+        "rot_z": 0.0
+    },
+    "Slide In": {
+        "anim_preset": "SLIDE",
+        "duration": 30,
+        "overlap": 5,
+        "scale_start": 1.0,
+        "rot_z": 0.0
+    },
+    "Escala 0 a 100": {
+        "anim_preset": "SCALE",
+        "duration": 20,
+        "overlap": 0,
+        "scale_start": 0.0,
+        "scale_end": 100.0,
+        "rot_z": 0.0
+    }
+} 

@@ -1,0 +1,23 @@
+{
+    "typing": {
+        "anim_preset": "TYPE",
+        "duration": 20,
+        "overlap": 2
+    },
+    "wave": {
+        "anim_preset": "WAVE",
+        "amplitude": 1.0
+    },
+    "bounce": {
+        "anim_preset": "BOUNCE",
+        "amplitude": 1.0
+    },
+    "scale": {
+        "anim_preset": "SCALE",
+        "scale_start": 0.0
+    },
+    "fade": {
+        "anim_preset": "TYPE",
+        "duration": 10
+    }
+}
