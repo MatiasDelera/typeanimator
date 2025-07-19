@@ -74,9 +74,11 @@ def register_handler():
         _handler_registered = True
 
 def unregister_handler():
+    """Remove the frame change handler if it was previously registered."""
+    global _handler_registered
     try:
-        # Ejemplo: solo remover si existe
-        if hasattr(bpy.app.handlers, 'persistent_handler'):
-            bpy.app.handlers.persistent_handler.remove()
+        if _handler_registered and frame_change_handler in bpy.app.handlers.frame_change_pre:
+            bpy.app.handlers.frame_change_pre.remove(frame_change_handler)
+            _handler_registered = False
     except Exception as e:
         print(f"[typeanimator] handlers.py error: {e}")
