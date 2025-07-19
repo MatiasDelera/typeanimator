@@ -89,4 +89,3 @@ if __name__ == "__main__":
     else:
         print("❌ HAY PROBLEMAS DE REGISTRO")
     
-    return modules_ok and main_ok 

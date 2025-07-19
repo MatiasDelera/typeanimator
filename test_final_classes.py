@@ -80,4 +80,3 @@ if __name__ == "__main__":
     else:
         print("❌ HAY PROBLEMAS DE REGISTRO")
     
-    return success 
