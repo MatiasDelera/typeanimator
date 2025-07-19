@@ -598,31 +598,31 @@ class TA_OT_import_preset_bundle(bpy.types.Operator):
     bl_description = "Importa un bundle completo con timing, curvas, estilo y materiales"
     bl_options = {'REGISTER', 'UNDO'}
     
-    filepath: bpy.props.StringProperty(
+    filepath: bpy.props.StringProperty = bpy.props.StringProperty(
         name="Ruta del archivo",
         description="Ruta del bundle de preset a importar",
         subtype='FILE_PATH'
     )
-    
-    import_timing: bpy.props.BoolProperty(
+
+    import_timing: bpy.props.BoolProperty = bpy.props.BoolProperty(
         name="Importar Timing",
         description="Importar configuración de timing",
         default=True
     )
-    
-    import_curves: bpy.props.BoolProperty(
+
+    import_curves: bpy.props.BoolProperty = bpy.props.BoolProperty(
         name="Importar Curvas",
         description="Importar curvas de easing",
         default=True
     )
-    
-    import_style: bpy.props.BoolProperty(
+
+    import_style: bpy.props.BoolProperty = bpy.props.BoolProperty(
         name="Importar Estilo",
         description="Importar configuración de estilo",
         default=True
     )
-    
-    import_materials: bpy.props.BoolProperty(
+
+    import_materials: bpy.props.BoolProperty = bpy.props.BoolProperty(
         name="Importar Materiales",
         description="Importar configuración de materiales",
         default=True
@@ -715,7 +715,7 @@ class TA_OT_validate_preset_bundle(bpy.types.Operator):
     bl_description = "Valida la estructura y contenido de un bundle de preset"
     bl_options = {'REGISTER'}
     
-    filepath: bpy.props.StringProperty(
+    filepath: bpy.props.StringProperty = bpy.props.StringProperty(
         name="Ruta del archivo",
         description="Ruta del bundle de preset a validar",
         subtype='FILE_PATH'
